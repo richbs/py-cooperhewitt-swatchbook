@@ -9,9 +9,9 @@ def closest(reference, hex):
     palette = load_palette(reference)
     return palette.closest(hex)
 
-def closest_cmc(reference, hex):
+def closest_delta_e(reference, hex):
     palette = load_palette(reference)
-    return palette.closest_cmc(hex)
+    return palette.closest_delta_e(hex)
 
 
 if __name__ == '__main__':
